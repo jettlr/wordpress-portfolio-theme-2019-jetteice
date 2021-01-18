@@ -1,0 +1,169 @@
+    /*
+    Theme Name: WP Lab Portfolio theme
+    Author: Henriette Eisfeld
+    Description: A theme to present creative work
+    */
+
+    body,html {
+      color: white;
+      margin: 0;
+      font: bold 14px/1.4 'Open Sans', arial, sans-serif;
+      background: #000;
+    }
+
+    footer {
+      margin-top: 50px;
+      color: grey;
+    }
+
+    figure {
+      margin-inline-start: auto;
+      margin-inline-end: auto;
+      margin-top: -50px;
+    }
+
+    .category a {
+      color: black;
+      text-transform: none;
+      text-decoration: none;
+      letter-spacing: normal;
+      display: inline-block;
+      padding: 0;
+      position: unset;
+    }
+
+    .project {
+      display: inline-flex;
+    }
+
+    .site-content {
+      margin-left: 25%;
+      margin-right: 25%;
+    }
+
+    .site-content1 {
+      margin-left: 5%;
+      margin-right: 5%;
+      margin-top: 50px;
+    }
+
+    .taxonomies {
+      margin: auto;
+      width: 50%;
+    }
+
+    #content {
+      align-self: center;
+      text-align: center;
+    }
+    .content1 {
+      width: 70%;
+      margin: 0 auto;
+    }
+
+    .has-text-align-center {
+      text-align: center;
+    }
+
+    .img-container {
+      cursor: pointer;
+      overflow: hidden;
+    }
+    .img-container:hover {
+      border-style: solid;
+      border-color: white;
+      border-width: 10px;
+    }
+
+    .img-container:hover .img-content-hover {
+      display: block;
+    }
+
+    .img-content-hover {
+      z-index: 1;
+      top: 0;
+      left: 0;
+      white-space: nowrap;
+      display: none;
+      padding: 1rem;
+      background: #fff;
+      font-weight: 400;
+    }
+
+    .title {
+      font-size: 2.5rem;
+      font-weight: 700;
+      margin-bottom: 50px;
+    }
+
+    .attachment-single_large {
+      margin-bottom: 40px;
+    }
+
+    .title1 {
+      color: #2e2e2e;
+      font-size: 1.5rem;
+      font-weight: 700;
+    }
+
+    .category {
+      font-size: 1rem;
+      color: #787878;
+    }
+
+
+    .category {
+      font-size: 1rem;
+      color: $gray;
+    }
+
+    h1 {
+      text-align: center;
+      margin-top: 50px;
+    }
+
+    ul {
+      margin: 150px auto 0;
+      padding: 0;
+      list-style: none;
+      display: table;
+      width: 600px;
+      text-align: center;
+    }
+    li {
+      width: 33%;
+      display: table-cell;
+      position: relative;
+      padding: 15px 0;
+    }
+    a {
+      color: #fff;
+      text-transform: uppercase;
+      text-decoration: none;
+      letter-spacing: 0.15em;
+
+      display: inline-block;
+      padding: 15px 20px;
+      position: relative;
+    }
+    header a:after {
+      background: none repeat scroll 0 0 transparent;
+      bottom: 0;
+      content: "";
+      display: block;
+      height: 2px;
+      left: 50%;
+      position: absolute;
+      background: #fff;
+      transition: width 0.3s ease 0s, left 0.3s ease 0s;
+      width: 0;
+    }
+    a:hover:after {
+      width: 100%;
+      left: 0;
+    }
+    @media screen and (max-height: 300px) {
+    	ul {
+    		margin-top: 40px;
+    	}
+    }
